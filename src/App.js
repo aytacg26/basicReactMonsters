@@ -33,6 +33,7 @@ class App extends Component {
 
     return (
       <div className='App'>
+        <h1>Monsters Rolodex</h1>
         <Search
           search={this.state.search}
           SearchMonster={this.handleSearch}
